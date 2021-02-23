@@ -11,5 +11,21 @@ Dataset contains images of various skin cancers downloadable at below : Size ~ 1
 
 https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing
 
-### Dependencies
+### Dependencies:
 
+import pathlib
+import tensorflow as tf
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import os
+import PIL
+from tensorflow import keras
+from tensorflow.keras import layers
+from tensorflow.keras.models import Sequential
+
+### Approach:
+
+- Data loaded from disk using keras generators in batch size
+- Data Normalization
+- ...
